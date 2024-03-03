@@ -74,7 +74,8 @@
   "age": 85,
   "dateOfBirth": "1947-08-15T00:00:00.000Z",
   "fullName": "Deepak Joshi",
-  "profilePhoto": "http://localhost:5000/uploads/profilePhoto-1709315685516.jpeg"
+  "profilePhoto": "http://localhost:5000/uploads/profilePhoto-1709315685516.jpeg",
+  "phone" : "123456678"
   }
     ```
 
@@ -90,6 +91,7 @@
   - `age`: "85"
   - `dateOfBirth`: "1990-01-01"
   - `profilePhoto`: "(attach image file here)"
+  - `phone`: "255855588"
 - **Response :**
     ```json
     {
@@ -101,6 +103,7 @@
   "age": 85,
   "dateOfBirth": "1947-08-15T00:00:00.000Z",
   "fullName": "Deepak Joshi",
+  "phone" : "123456678",
   "profilePhoto": "http://localhost:5000/uploads/profilePhoto-1709316182316.jpeg"
   }
     ```
